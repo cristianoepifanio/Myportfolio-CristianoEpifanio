@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ------ STYLE SHEETS----------- -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/20b170574e.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+
     <!-- ------ JQUERY----- ----------- -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
 
@@ -13,53 +19,66 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="">
-                <li>About me</li>
-            </a>
-            <a href="https://cristianoepifanio.github.io/cv/" target="_blank" title="Curriculum vitae">
-                <li>My CV</li>
-            </a>
-            
-        </nav>
-        <div class="logo"><a href="#" target="_self"><img src="assets/banner.png" alt=""></a></div>
-        <nav>
-            <a href="">
-                <li>Portfolio</li>
-            </a>
-            <a href="">
-                <li>contact</li>
-            </a>
-            
-        </nav>
-        <div class="menu-mobile">
-            <i class="fa-solid fa-bars"></i>
-
-            <nav>
-                <a href="">
-                    <li>About me</li>
-                </a>
-                <a href="https://cristianoepifanio.github.io/cv/" target="_blank" title="Curriculum vitae">
-                    <li>My CV</li>
-                </a>
-                
-            </nav>
-            <div class="logo"><a href="#" target="_self"><img src="assets/banner.png" alt=""></a></div>
-            <nav>
-                <a href="">
-                    <li>Portfolio</li>
-                </a>
-                <a href="">
-                    <li>contact</li>
-                </a>
-                
-            </nav>
-
+        <div class="conteiner">
+            <div class="menu">
+                <h2>logo</h2>
+                <nav class="menu-desktop">
+                    <ul>
+                        <a href="#" title="sobre mim">
+                            <li>sobre</li>
+                        </a>
+                        <a href="#" title="meus projetos">
+                            <li>projetos</li>
+                        </a>
+                        <a href="#" title="meus contatos">
+                            <li>contato</li>
+                        </a>
+                    </ul>
+                </nav>
+                <nav class="menu-mobile">
+                    <h2><i class="fa-solid fa-bars"></i></h2>
+                    <ul>
+                        <a href="#" title="sobre mim">
+                            <li>sobre</li>
+                        </a>
+                        <a href="#" title="meus projetos">
+                            <li>projetos</li>
+                        </a>
+                        <a href="#" title="meus contatos">
+                            <li>contato</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <div class="banner">
 
     </div>
-    <p>lorem*30</p>
+    <section class="sobreMim">
+        <div class="conteiner">
+            <h2>Sobre mim</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, illo eum quasi ullam id iusto excepturi fugit esse, debitis sunt quae corporis nostrum officia consequatur blanditiis quod optio incidunt suscipit!</p>
+        </div>
+    </section>
+    <section class="MeuPortifolio">
+        <div class="conteiner">
+            <h2>Meu portfólio</h2>
+            <div class="projetos">
+                <div class="projeto w30"></div>
+                <div class="projeto w30"></div>
+                <div class="projeto w30"></div>
+                <div class="projeto w30"></div>
+                <div class="projeto w30"></div>
+                <div class="projeto w30"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="conteiner">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sunt saepe iure quo. Consequuntur fugiat fuga eos tempore saepe at, iusto, quod consequatur, non voluptas minima labore autem commodi atque.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
